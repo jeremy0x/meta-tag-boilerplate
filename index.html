@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="{{THEME_COLOR}}" />
+  <meta name="robots" content="index, follow">
+
+  <!-- Primary Meta Tags -->
+  <title>{{PAGE_TITLE}}</title>
+  <meta name="title" content="{{PAGE_TITLE}}" />
+  <meta name="description" content="{{PAGE_DESCRIPTION}}" />
+  <meta name="keywords" content="{{KEYWORDS}}" />
+
+  <!-- Alternate language versions of the page -->
+  <link rel="alternate" hreflang="{{LANGUAGE_CODE}}" href="{{ALTERNATE_PAGE_URL}}" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="{{FAVICON_URL}}">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{PAGE_URL}}" />
+  <meta property="og:title" content="{{PAGE_TITLE}}" />
+  <meta property="og:description" content="{{PAGE_DESCRIPTION}}" />
+  <meta property="og:image" content="{{OG_IMAGE_URL}}" />
+  <meta property="og:site_name" content="{{OG_SITE_NAME}}" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="{{PAGE_URL}}" />
+  <meta property="twitter:title" content="{{PAGE_TITLE}}" />
+  <meta property="twitter:description" content="{{PAGE_DESCRIPTION}}" />
+  <meta property="twitter:image" content="{{TWITTER_IMAGE_URL}}" />
+
+  <!-- Schema markup for structured data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "{{SCHEMA_TYPE}}",
+      "name": "{{PAGE_TITLE}}",
+      "description": "{{PAGE_DESCRIPTION}}",
+      "url": "{{PAGE_URL}}",
+      "image": "{{SCHEMA_IMAGE_URL}}"
+    }
+  </script>
+</head>
+
+<body>
+  <!-- Your website's content goes here -->
+</body>
+
+</html>

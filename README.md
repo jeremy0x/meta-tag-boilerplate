@@ -1,4 +1,4 @@
-# Meta Tag Boilerplate
+# Meta Tag Boilerplate  `<meta />`
 
 A ready-to-use HTML boilerplate for optimizing your website's meta tags for search engines and social media platforms.
 

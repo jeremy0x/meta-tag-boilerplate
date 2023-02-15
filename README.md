@@ -1,26 +1,42 @@
-# Meta Tag Boilerplate `<meta />`
+# Meta Tag Boilerplate
 
 A ready-to-use HTML boilerplate for optimizing your website's meta tags for search engines and social media platforms.
 
-Meta tags are snippets of HTML code that provide information to search engines and social media platforms about a webpage. By including relevant and descriptive meta tags, you can help improve the visibility and click-through rate of your webpage in search results and social media feeds.
-
-This boilerplate includes a comprehensive set of meta tags that are commonly used to optimize a webpage's SEO and social media presence. By using this boilerplate, you can quickly and easily add the necessary meta tags to your webpage and improve its visibility in search results and social media feeds.
-
 ## Getting Started
 
-1. Clone or download the repository to your local machine
-2. Replace the placeholder values in the HTML code with your own information
-3. Add the code to the `<head>` section of your website's HTML file
+1. Clone or download the repository to your local machine.
+2. Replace the placeholder values in the HTML code with your own information.
+3. Add the code to the `<head>` section of your website's HTML file.
 
-## Placeholders
+## Included Meta Tags
 
-The following placeholders are included in the code:
+| Meta Tag | Description |
+| --- | --- |
+| `charset` | Specifies the character encoding of the document |
+| `viewport` | Controls the viewport's dimensions and scaling |
+| `theme-color` | Specifies the theme color for the site |
+| `robots` | Informs search engine crawlers whether or not to index or follow links on the page |
+| `title` | Specifies the title of the document |
+| `description` | Provides a concise summary of the page content |
+| `keywords` | Provides a comma-separated list of keywords relevant to the page |
+| `alternate` | Specifies alternate language versions of the page |
+| `icon` | Specifies the icon to represent the page |
+| `og:type` | Specifies the type of website or page being shared on social media |
+| `og:url` | Provides the canonical URL of the page |
+| `og:title` | Specifies the title of the page to display on social media |
+| `og:description` | Provides a summary of the page content to display on social media |
+| `og:image` | Specifies the image to display on social media |
+| `og:site_name` | Specifies the name of the website to display on social media |
+| `twitter:card` | Specifies the type of card to display on Twitter |
+| `twitter:url` | Provides the canonical URL of the page |
+| `twitter:title` | Specifies the title of the page to display on Twitter |
+| `twitter:description` | Provides a summary of the page content to display on Twitter |
+| `twitter:image` | Specifies the image to display on Twitter |
+| `script type="application/ld+json"` | Provides structured data in JSON-LD format for search engine crawlers |
 
-- Page title
-- Description
-- Keywords
-- Open Graph/Facebook properties: type, URL, title, description, image, and site name
-- Twitter properties: card, URL, title, description, and image
+## Generating a Favicon
+
+You can generate a favicon using a website like [favicon.io](https://favicon.io/).
 
 ## License
 
@@ -29,81 +45,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 Feel free to use and modify the code for your own projects. If you found this repository helpful, please consider giving it a star.
-
-## Meta Tags Included
-
-### Primary Meta Tags
-
-#### Title Tag
-
-The title tag is the most important meta tag for search engine optimization. It is the text that appears in the search engine results page (SERP) and is also used by social media platforms when sharing a link. The title should be descriptive and include the main keywords for the webpage.
-
-#### Description Tag
-
-The description tag provides a brief summary of the webpage's content. It is displayed in the search engine results page and is also used by social media platforms when sharing a link. The description should be concise and informative, and should include the main keywords for the webpage.
-
-#### Keywords Tag
-
-The keywords tag is used to provide a list of relevant keywords for the webpage. Although this tag is no longer used by most search engines, it can still be useful for organizing and categorizing the content of the webpage.
-
-### Open Graph/Facebook Meta Tags
-
-#### Type Tag
-
-The type tag is used to indicate the type of content on the webpage, such as website, article, or product.
-
-#### URL Tag
-
-The URL tag is used to specify the canonical URL of the webpage.
-
-#### Title Tag
-
-The title tag for Open Graph/Facebook is used to specify the title of the webpage when it is shared on social media platforms.
-
-#### Description Tag
-
-The description tag for Open Graph/Facebook is used to provide a summary of the webpage's content when it is shared on social media platforms.
-
-#### Image Tag
-
-The image tag for Open Graph/Facebook is used to specify the image that should be displayed when the webpage is shared on social media platforms.
-
-#### Site Name Tag
-
-The site name tag for Open Graph/Facebook is used to specify the name of the website.
-
-### Twitter Meta Tags
-
-#### Card Tag
-
-The card tag is used to specify the type of card that should be used when the webpage is shared on Twitter, such as summary, summary_large_image, or app.
-
-#### URL Tag
-
-The URL tag for Twitter is used to specify the canonical URL of the webpage.
-
-#### Title Tag
-
-The title tag for Twitter is used to specify the title of the webpage when it is shared on Twitter.
-
-#### Description Tag
-
-The description tag for Twitter is used to provide a summary of the webpage's content when it is shared on Twitter.
-
-#### Image Tag
-
-The image tag for Twitter is used to specify the image that should be displayed when the webpage is shared on Twitter.
-
-### Other Tags
-
-#### Viewport Tag
-
-The viewport tag is used to control the layout and scaling of the webpage on mobile devices.
-
-#### Theme Color Tag
-
-The theme color tag is used to specify the color that should be used for the browser's UI elements when the webpage is displayed.
-
-#### Robots Tag
-
-The robots tag is used to specify how search engine

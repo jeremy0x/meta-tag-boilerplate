@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Essential Meta Tags -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  <!-- Theme Color -->
+  <meta name="theme-color" content="{{THEME_COLOR}}" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="{{THEME_COLOR_LIGHT}}" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="{{THEME_COLOR_DARK}}" />
+  
+  <!-- SEO Meta Tags -->
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
+  <link rel="canonical" href="{{CANONICAL_URL}}" />
+
+  <!-- Primary Meta Tags -->
+  <title>{{PAGE_TITLE}}</title>
+  <meta name="title" content="{{PAGE_TITLE}}" />
+  <meta name="description" content="{{PAGE_DESCRIPTION}}" />
+  <meta name="keywords" content="{{KEYWORDS}}" />
+  <meta name="author" content="{{AUTHOR_NAME}}" />
+
+  <!-- Alternate Language Versions -->
+  <link rel="alternate" hreflang="en" href="{{ALTERNATE_EN_URL}}" />
+  <link rel="alternate" hreflang="x-default" href="{{ALTERNATE_DEFAULT_URL}}" />
+  <!-- Add more hreflang tags as needed -->
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="{{FAVICON_32x32_URL}}" />
+  <link rel="icon" type="image/png" sizes="16x16" href="{{FAVICON_16x16_URL}}" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{APPLE_TOUCH_ICON_URL}}" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <!-- Generate favicons at https://favicon.io or https://realfavicongenerator.net -->
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{PAGE_URL}}" />
+  <meta property="og:title" content="{{OG_TITLE}}" />
+  <meta property="og:description" content="{{OG_DESCRIPTION}}" />
+  <meta property="og:image" content="{{OG_IMAGE_URL}}" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="{{OG_IMAGE_ALT}}" />
+  <meta property="og:site_name" content="{{SITE_NAME}}" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="{{PAGE_URL}}" />
+  <meta name="twitter:title" content="{{TWITTER_TITLE}}" />
+  <meta name="twitter:description" content="{{TWITTER_DESCRIPTION}}" />
+  <meta name="twitter:image" content="{{TWITTER_IMAGE_URL}}" />
+  <meta name="twitter:image:alt" content="{{TWITTER_IMAGE_ALT}}" />
+  <meta name="twitter:site" content="{{TWITTER_HANDLE}}" />
+  <meta name="twitter:creator" content="{{TWITTER_CREATOR_HANDLE}}" />
+
+  <!-- Schema.org Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "{{SCHEMA_TYPE}}",
+    "name": "{{PAGE_TITLE}}",
+    "description": "{{PAGE_DESCRIPTION}}",
+    "url": "{{PAGE_URL}}",
+    "image": {
+      "@type": "ImageObject",
+      "url": "{{SCHEMA_IMAGE_URL}}",
+      "width": 1200,
+      "height": 630
+    },
+    "author": {
+      "@type": "Person",
+      "name": "{{AUTHOR_NAME}}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{PUBLISHER_NAME}}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{PUBLISHER_LOGO_URL}}"
+      }
+    }
+  }
+  </script>
+
+  <!-- Additional SEO Enhancement -->
+  <!-- Preconnect to external domains for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+  <!-- DNS Prefetch for external resources -->
+  <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+</head>
+
+<body>
+  <!-- Your website's content goes here -->
+  
+  <h1>{{PAGE_TITLE}}</h1>
+  <p>{{PAGE_DESCRIPTION}}</p>
+</body>
+
+</html>

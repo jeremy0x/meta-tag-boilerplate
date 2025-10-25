@@ -144,10 +144,3 @@ export function SEO({
  *   )
  * }
  */
-
-/**
- * For TypeScript users, you can create a custom hook for commonly used metadata:
- */
-export function useSEO(props: SEOProps) {
-  return <SEO {...props} />
-}

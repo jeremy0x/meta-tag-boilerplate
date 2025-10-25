@@ -1,55 +1,49 @@
-# Meta Tag Boilerplate  `<meta />`
+# Meta Tag Boilerplate
 
 Modern, framework-agnostic meta tag boilerplates for SEO and social media optimization. Ready-to-use configurations for HTML, Next.js, and Vite projects.
 
-## 🚀 Features
+## Features
 
-- ✅ **Multiple Frameworks**: HTML, Next.js (App Router), and Vite (React/Vue)
-- ✅ **SEO Optimized**: Complete meta tags for search engines
-- ✅ **Social Media Ready**: Open Graph and Twitter Card support
-- ✅ **Copy-Paste Ready**: Easy to integrate into your projects
-- ✅ **TypeScript Support**: Fully typed for Next.js and Vite
-- ✅ **Modern Best Practices**: Updated for 2024+ standards
-- ✅ **Schema.org Structured Data**: JSON-LD support for rich results
-- ✅ **Dark Mode Support**: Theme color configuration for light/dark modes
+- Multiple Frameworks: HTML, Next.js (App Router), and Vite (React/Vue)
+- SEO Optimized: Complete meta tags for search engines
+- Social Media Ready: Open Graph and Twitter Card support
+- Copy-Paste Ready: Easy to integrate into your projects
+- TypeScript Support: Fully typed for Next.js and Vite
+- Modern Best Practices: Updated for 2024+ standards
+- Schema.org Structured Data: JSON-LD support for rich results
+- Dark Mode Support: Theme color configuration for light/dark modes
 
-## 📚 Quick Navigation
+## Quick Navigation
 
 Choose your framework:
 
-### [📄 HTML](./html/)
+### [HTML](./html/)
 Traditional HTML setup for static websites or any web project.
 - Static meta tags
 - Comprehensive head setup
 - Works with any backend or static site generator
 
-[→ View HTML Documentation](./html/README.md)
-
-### [⚡ Next.js](./nextjs/)
+### [Next.js](./nextjs/)
 Modern setup using Next.js 13+ App Router Metadata API.
 - Type-safe metadata configuration
 - Static and dynamic metadata support
 - Built-in SEO optimization
 
-[→ View Next.js Documentation](./nextjs/README.md)
-
-### [⚡ Vite](./vite/)
+### [Vite](./vite/)
 Setup for Vite projects (React, Vue, and other frameworks).
 - Static and dynamic meta tags
 - React and Vue components included
 - Environment variable support
 
-[→ View Vite Documentation](./vite/README.md)
+## Quick Start
 
-## 🎯 Quick Start
+1. Choose your framework from the options above
+2. Navigate to the framework folder
+3. Follow the README in that folder for detailed instructions
+4. Copy the boilerplate into your project
+5. Replace placeholders with your actual values
 
-1. **Choose your framework** from the options above
-2. **Navigate to the framework folder**
-3. **Follow the README** in that folder for detailed instructions
-4. **Copy the boilerplate** into your project
-5. **Replace placeholders** with your actual values
-
-## 📦 What's Included
+## What's Included
 
 ### HTML
 - `index.html` - Complete HTML boilerplate with modern meta tags
@@ -66,7 +60,7 @@ Setup for Vite projects (React, Vue, and other frameworks).
 - `SEO.vue` - Vue 3 component for dynamic meta tags
 - `README.md` - Setup guide for both React and Vue
 
-## 🔑 Key Meta Tags Included
+## Key Meta Tags Included
 
 All boilerplates include:
 
@@ -81,7 +75,7 @@ All boilerplates include:
 | **Structured Data** | JSON-LD schema markup |
 | **i18n** | hreflang alternate links |
 
-## 💡 Usage Examples
+## Usage Examples
 
 ### HTML
 ```html
@@ -128,7 +122,7 @@ function HomePage() {
 </template>
 ```
 
-## 🖼️ Image Recommendations
+## Image Recommendations
 
 ### Social Media Images (Open Graph / Twitter)
 - **Dimensions**: 1200 x 630 pixels
@@ -142,27 +136,27 @@ Use these tools to generate favicons:
 - [favicon.io](https://favicon.io/)
 - [RealFaviconGenerator](https://realfavicongenerator.net/)
 
-## 🧪 Testing Your Metadata
+## Testing Your Metadata
 
 Validate your implementation with these tools:
 
-- **Facebook Sharing Debugger**: https://developers.facebook.com/tools/debug/
-- **Twitter Card Validator**: https://cards-dev.twitter.com/validator
-- **LinkedIn Post Inspector**: https://www.linkedin.com/post-inspector/
-- **Schema Markup Validator**: https://validator.schema.org/
-- **Open Graph Check**: https://www.opengraph.xyz/
+- Facebook Sharing Debugger: https://developers.facebook.com/tools/debug/
+- Twitter Card Validator: https://cards-dev.twitter.com/validator
+- LinkedIn Post Inspector: https://www.linkedin.com/post-inspector/
+- Schema Markup Validator: https://validator.schema.org/
+- Open Graph Check: https://www.opengraph.xyz/
 
-## 📖 Best Practices
+## Best Practices
 
-1. **Title**: Keep under 60 characters to avoid truncation
-2. **Description**: 150-160 characters is optimal
-3. **Images**: Always use high-quality images (1200x630px)
-4. **Canonical URLs**: Specify to avoid duplicate content issues
-5. **Mobile**: Test on mobile devices
-6. **Accessibility**: Include alt text for all images
-7. **Performance**: Optimize images and use appropriate formats
+1. Title: Keep under 60 characters to avoid truncation
+2. Description: 150-160 characters is optimal
+3. Images: Always use high-quality images (1200x630px)
+4. Canonical URLs: Specify to avoid duplicate content issues
+5. Mobile: Test on mobile devices
+6. Accessibility: Include alt text for all images
+7. Performance: Optimize images and use appropriate formats
 
-## 🔄 Migration Guide
+## Migration Guide
 
 ### From Old HTML Boilerplate
 1. Choose your framework (HTML, Next.js, or Vite)
@@ -170,11 +164,11 @@ Validate your implementation with these tools:
 3. Update your placeholder values
 
 ### From Other Solutions
-- **From react-helmet**: Use Vite + React setup
-- **From vue-meta**: Use Vite + Vue setup
-- **From next-seo**: Use Next.js setup (built-in metadata API is better)
+- From react-helmet: Use Vite + React setup
+- From vue-meta: Use Vite + Vue setup
+- From next-seo: Use Next.js setup (built-in metadata API is better)
 
-## 📚 Resources
+## Resources
 
 - [Open Graph Protocol](https://ogp.me/)
 - [Twitter Cards Documentation](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards)
@@ -182,7 +176,7 @@ Validate your implementation with these tools:
 - [Google Search Central](https://developers.google.com/search/docs)
 - [Next.js Metadata API](https://nextjs.org/docs/app/building-your-application/optimizing/metadata)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! If you have suggestions for improvements or find any issues:
 
@@ -192,14 +186,10 @@ Contributions are welcome! If you have suggestions for improvements or find any 
 4. Push to the branch
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🌟 Acknowledgments
+## Acknowledgments
 
 Feel free to use and modify the code for your own projects. If you found this repository helpful, please consider giving it a star!
-
----
-
-**Made with ❤️ for the web development community**

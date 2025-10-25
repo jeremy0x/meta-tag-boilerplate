@@ -4,15 +4,15 @@ Complete metadata setup for Next.js App Router (Next.js 13+) using the built-in 
 
 ## Features
 
-- ✅ Type-safe metadata configuration
-- ✅ Built-in SEO optimization
-- ✅ Static and dynamic metadata support
-- ✅ Open Graph and Twitter Card support
-- ✅ Automatic sitemap and robots.txt generation
-- ✅ Internationalization support
-- ✅ Search engine verification
-- ✅ Theme color with dark/light mode
-- ✅ Favicon and icon management
+- Type-safe metadata configuration
+- Built-in SEO optimization
+- Static and dynamic metadata support
+- Open Graph and Twitter Card support
+- Automatic sitemap and robots.txt generation
+- Internationalization support
+- Search engine verification
+- Theme color with dark/light mode
+- Favicon and icon management
 
 ## Files Included
 

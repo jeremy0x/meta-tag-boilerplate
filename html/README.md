@@ -4,16 +4,16 @@ A comprehensive HTML boilerplate with modern meta tags for SEO, social media, an
 
 ## Features
 
-- ✅ Essential meta tags (charset, viewport, X-UA-Compatible)
-- ✅ Theme color with dark/light mode support
-- ✅ Enhanced SEO tags (robots, canonical, author)
-- ✅ Complete Open Graph tags for Facebook
-- ✅ Twitter Card tags
-- ✅ Schema.org structured data (JSON-LD)
-- ✅ Favicon support (multiple sizes)
-- ✅ Web manifest support
-- ✅ Internationalization (hreflang)
-- ✅ Performance optimization hints (preconnect, dns-prefetch)
+- Essential meta tags (charset, viewport, X-UA-Compatible)
+- Theme color with dark/light mode support
+- Enhanced SEO tags (robots, canonical, author)
+- Complete Open Graph tags for Facebook
+- Twitter Card tags
+- Schema.org structured data (JSON-LD)
+- Favicon support (multiple sizes)
+- Web manifest support
+- Internationalization (hreflang)
+- Performance optimization hints (preconnect, dns-prefetch)
 
 ## Usage
 

@@ -5,7 +5,7 @@ Complete metadata setup for Next.js App Router (Next.js 13+) using the built-in 
 ## Features
 
 - Type-safe metadata configuration
-- Built-in SEO optimization
+- Built-in SEO
 - Static and dynamic metadata support
 - Open Graph and Twitter Card support
 - Automatic sitemap and robots.txt generation
@@ -72,6 +72,7 @@ See `dynamic-metadata-example.tsx` for a complete example.
 ### Replace These Placeholders
 
 #### Basic Information
+
 ```typescript
 title: '{{SITE_NAME}}' // Your site name
 description: '{{PAGE_DESCRIPTION}}' // Page description (150-160 chars)
@@ -79,6 +80,7 @@ applicationName: '{{SITE_NAME}}' // Application name
 ```
 
 #### Authors & Creators
+
 ```typescript
 authors: [{ name: '{{AUTHOR_NAME}}', url: '{{AUTHOR_URL}}' }]
 creator: '{{CREATOR_NAME}}'
@@ -86,6 +88,7 @@ publisher: '{{PUBLISHER_NAME}}'
 ```
 
 #### Theme Colors
+
 ```typescript
 themeColor: [
   { media: '(prefers-color-scheme: light)', color: '#ffffff' },
@@ -94,11 +97,13 @@ themeColor: [
 ```
 
 #### Keywords
+
 ```typescript
 keywords: ['nextjs', 'react', 'typescript', 'web development']
 ```
 
 #### Open Graph
+
 ```typescript
 openGraph: {
   type: 'website', // or 'article', 'book', 'profile', etc.
@@ -116,6 +121,7 @@ openGraph: {
 ```
 
 #### Twitter
+
 ```typescript
 twitter: {
   card: 'summary_large_image',
@@ -128,6 +134,7 @@ twitter: {
 ```
 
 #### Verification Codes
+
 ```typescript
 verification: {
   google: 'your-google-verification-code',
@@ -197,12 +204,15 @@ export async function generateMetadata({ params }): Promise<Metadata> {
 Next.js also supports file-based metadata:
 
 ### favicon.ico, icon.png, apple-icon.png
+
 Place these files in your `app/` directory for automatic favicon support.
 
 ### opengraph-image.jpg, twitter-image.jpg
+
 Place these files in any route segment for automatic social media images.
 
 ### robots.txt
+
 ```typescript
 // app/robots.ts
 export default function robots() {
@@ -218,6 +228,7 @@ export default function robots() {
 ```
 
 ### sitemap.xml
+
 ```typescript
 // app/sitemap.ts
 export default function sitemap() {
@@ -242,10 +253,10 @@ export default function sitemap() {
 
 After implementing, test your metadata with these tools:
 
-1. **Facebook Sharing Debugger**: https://developers.facebook.com/tools/debug/
-2. **Twitter Card Validator**: https://cards-dev.twitter.com/validator
-3. **LinkedIn Post Inspector**: https://www.linkedin.com/post-inspector/
-4. **Google Rich Results Test**: https://search.google.com/test/rich-results
+1. **Facebook Sharing Debugger**: <https://developers.facebook.com/tools/debug/>
+2. **Twitter Card Validator**: <https://cards-dev.twitter.com/validator>
+3. **LinkedIn Post Inspector**: <https://www.linkedin.com/post-inspector/>
+4. **Google Rich Results Test**: <https://search.google.com/test/rich-results>
 
 ## Best Practices
 
@@ -261,6 +272,7 @@ After implementing, test your metadata with these tools:
 ## Common Metadata Types
 
 ### Website (Default)
+
 ```typescript
 openGraph: {
   type: 'website',
@@ -269,6 +281,7 @@ openGraph: {
 ```
 
 ### Blog Article
+
 ```typescript
 openGraph: {
   type: 'article',
@@ -281,6 +294,7 @@ openGraph: {
 ```
 
 ### Product Page
+
 ```typescript
 openGraph: {
   type: 'product',
@@ -306,6 +320,7 @@ openGraph: {
 If you're migrating from Next.js Pages Router with `next-seo` or custom Head components:
 
 **Before (Pages Router):**
+
 ```typescript
 import Head from 'next/head'
 
@@ -323,6 +338,7 @@ export default function Page() {
 ```
 
 **After (App Router):**
+
 ```typescript
 export const metadata = {
   title: 'My Page',

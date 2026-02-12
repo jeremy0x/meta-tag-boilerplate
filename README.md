@@ -31,7 +31,7 @@ Modern setup using Next.js 13+ App Router Metadata API.
 
 - Type-safe metadata configuration
 - Static and dynamic metadata support
-- Built-in SEO optimization
+- Built-in SEO
 
 ### [Vite](./vite/)
 

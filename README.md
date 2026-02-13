@@ -18,19 +18,25 @@ Modern, framework-agnostic meta tag boilerplates for SEO and social media optimi
 Choose your framework:
 
 ### [HTML](./html/)
+
 Traditional HTML setup for static websites or any web project.
+
 - Static meta tags
 - Comprehensive head setup
 - Works with any backend or static site generator
 
 ### [Next.js](./nextjs/)
+
 Modern setup using Next.js 13+ App Router Metadata API.
+
 - Type-safe metadata configuration
 - Static and dynamic metadata support
-- Built-in SEO optimization
+- Built-in SEO
 
 ### [Vite](./vite/)
+
 Setup for Vite projects (React, Vue, and other frameworks).
+
 - Static and dynamic meta tags
 - React and Vue components included
 - Environment variable support
@@ -43,18 +49,42 @@ Setup for Vite projects (React, Vue, and other frameworks).
 4. Copy the boilerplate into your project
 5. Replace placeholders with your actual values
 
+## Agent Skill
+
+This repository ships an installable agent skill (`seo-meta-tags`) that teaches AI coding assistants the project's metadata conventions, placeholder tokens, quality checklist, and per-framework rules.
+
+**Install via [skills.sh](https://skills.sh):**
+
+```bash
+npx skills add jeremy0x/meta-tag-boilerplate --skill seo-meta-tags
+```
+
+**Structure:**
+
+```text
+skills/seo-meta-tags/
+├── SKILL.md              # Core workflow, quality gate, metadata families
+└── references/
+    ├── html.md           # HTML <head> tag reference & ordering
+    ├── nextjs.md         # Next.js Metadata API & generateMetadata patterns
+    └── vite.md           # React (react-helmet-async) & Vue (@unhead/vue) components
+```
+
 ## What's Included
 
 ### HTML
+
 - `index.html` - Complete HTML boilerplate with modern meta tags
 - `README.md` - Detailed documentation and best practices
 
 ### Next.js
+
 - `metadata.ts` - Complete metadata configuration for App Router
 - `dynamic-metadata-example.tsx` - Example of dynamic metadata generation
 - `README.md` - Comprehensive guide with examples
 
 ### Vite
+
 - `index.html` - Base HTML template with static meta tags
 - `SEO.tsx` - React component for dynamic meta tags
 - `SEO.vue` - Vue 3 component for dynamic meta tags
@@ -77,14 +107,16 @@ All boilerplates include:
 
 ## Usage Examples
 
-### HTML
+### HTML Example
+
 ```html
 <!-- Just copy and paste into your HTML <head> -->
 <title>My Awesome Website</title>
 <meta name="description" content="Welcome to my website" />
 ```
 
-### Next.js
+### Next.js Example
+
 ```typescript
 // app/layout.tsx or app/page.tsx
 export const metadata: Metadata = {
@@ -95,6 +127,7 @@ export const metadata: Metadata = {
 ```
 
 ### Vite + React
+
 ```tsx
 import { SEO } from './components/SEO'
 
@@ -112,6 +145,7 @@ function HomePage() {
 ```
 
 ### Vite + Vue
+
 ```vue
 <template>
   <SEO
@@ -125,6 +159,7 @@ function HomePage() {
 ## Image Recommendations
 
 ### Social Media Images (Open Graph / Twitter)
+
 - **Dimensions**: 1200 x 630 pixels
 - **Aspect Ratio**: 1.91:1
 - **Format**: JPG or PNG
@@ -132,7 +167,9 @@ function HomePage() {
 - **Alt Text**: Always provide descriptive alt text
 
 ### Favicons
+
 Use these tools to generate favicons:
+
 - [favicon.io](https://favicon.io/)
 - [RealFaviconGenerator](https://realfavicongenerator.net/)
 
@@ -140,11 +177,11 @@ Use these tools to generate favicons:
 
 Validate your implementation with these tools:
 
-- Facebook Sharing Debugger: https://developers.facebook.com/tools/debug/
-- Twitter Card Validator: https://cards-dev.twitter.com/validator
-- LinkedIn Post Inspector: https://www.linkedin.com/post-inspector/
-- Schema Markup Validator: https://validator.schema.org/
-- Open Graph Check: https://www.opengraph.xyz/
+- Facebook Sharing Debugger: <https://developers.facebook.com/tools/debug/>
+- Twitter Card Validator: <https://cards-dev.twitter.com/validator>
+- LinkedIn Post Inspector: <https://www.linkedin.com/post-inspector/>
+- Schema Markup Validator: <https://validator.schema.org/>
+- Open Graph Check: <https://www.opengraph.xyz/>
 
 ## Best Practices
 
@@ -159,11 +196,13 @@ Validate your implementation with these tools:
 ## Migration Guide
 
 ### From Old HTML Boilerplate
+
 1. Choose your framework (HTML, Next.js, or Vite)
 2. Follow the Quick Start guide for that framework
 3. Update your placeholder values
 
 ### From Other Solutions
+
 - From react-helmet: Use Vite + React setup
 - From vue-meta: Use Vite + Vue setup
 - From next-seo: Use Next.js setup (built-in metadata API is better)

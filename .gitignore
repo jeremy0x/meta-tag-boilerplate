@@ -35,3 +35,9 @@ Thumbs.db
 *.tmp
 tmp/
 temp/
+
+# Agent / skill tooling (local only)
+.agents/
+.claude/
+.venv/
+*.skill
